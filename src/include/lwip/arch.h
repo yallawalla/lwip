@@ -147,28 +147,28 @@ typedef uintptr_t mem_ptr_t;
 #if !LWIP_NO_INTTYPES_H
 #include <inttypes.h>
 #ifndef X8_F
-#define X8_F  "02" PRIx8
+#define X8_F  "x"
 #endif
 #ifndef U16_F
-#define U16_F PRIu16
+#define U16_F "u"
 #endif
 #ifndef S16_F
-#define S16_F PRId16
+#define S16_F "d"
 #endif
 #ifndef X16_F
-#define X16_F PRIx16
+#define X16_F "x"
 #endif
 #ifndef U32_F
-#define U32_F PRIu32
+#define U32_F "u"
 #endif
 #ifndef S32_F
-#define S32_F PRId32
+#define S32_F "d"
 #endif
 #ifndef X32_F
-#define X32_F PRIx32
+#define X32_F "x"
 #endif
 #ifndef SZT_F
-#define SZT_F PRIuPTR
+#define SZT_F "x"
 #endif
 #endif
 
