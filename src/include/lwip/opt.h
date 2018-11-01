@@ -1159,6 +1159,12 @@
 #if !defined LWIP_DNS_SUPPORT_MDNS_QUERIES || defined __DOXYGEN__
 #define LWIP_DNS_SUPPORT_MDNS_QUERIES   0
 #endif
+
+/** Time To Live parameter returned by the DNS server
+ *  in query responses */
+#if !defined DNS_SERVER_TTL || defined __DOXYGEN__
+#define DNS_SERVER_TTL                 30
+#endif
 /**
  * @}
  */

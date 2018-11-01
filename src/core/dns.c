@@ -278,6 +278,7 @@ DNS_LOCAL_HOSTLIST_STORAGE_PRE struct local_hostlist_entry local_hostlist_static
 
 static void dns_init_local(void);
 static err_t dns_lookup_local(const char *hostname, ip_addr_t *addr LWIP_DNS_ADDRTYPE_ARG(u8_t dns_addrtype));
+static void dns_server_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port);
 #endif /* DNS_LOCAL_HOSTLIST */
 
 
@@ -285,6 +286,7 @@ static err_t dns_lookup_local(const char *hostname, ip_addr_t *addr LWIP_DNS_ADD
 static void dns_recv(void *s, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port);
 static void dns_check_entries(void);
 static void dns_call_found(u8_t idx, ip_addr_t *addr);
+static u16_t dns_compare_name(const char *query, struct pbuf* p, u16_t start_offset);
 
 /*-----------------------------------------------------------------------------
  * Globals
@@ -426,6 +428,20 @@ dns_init_local(void)
     }
   }
 #endif /* DNS_LOCAL_HOSTLIST_IS_DYNAMIC && defined(DNS_LOCAL_HOSTLIST_INIT) */
+  {
+    /* start a DNS server with the locally available list */
+    err_t err = ERR_MEM;
+    struct udp_pcb *pcb = udp_new_ip_type(IPADDR_TYPE_ANY);
+
+    if (pcb != NULL) {
+      err = udp_bind(pcb, IP_ANY_TYPE, DNS_SERVER_PORT);
+      if (ERR_OK == err) {
+        udp_recv(pcb, dns_server_recv, NULL);
+      } else {
+        udp_remove(pcb);
+      }
+    }
+  }
 }
 
 /**
@@ -581,6 +597,114 @@ dns_local_addhost(const char *hostname, const ip_addr_t *addr)
   return ERR_OK;
 }
 #endif /* DNS_LOCAL_HOSTLIST_IS_DYNAMIC*/
+
+/**
+ * Receive input function for DNS query packets arriving for the dns server UDP pcb.
+ */
+static void
+dns_server_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port)
+{
+  struct pbuf *q;
+#if LWIP_IPV6
+  int ipsize = sizeof(ip6_addr_t);
+#else
+  int ipsize = sizeof(ip4_addr_t);
+#endif
+
+  LWIP_UNUSED_ARG(arg);
+
+  /* is the dns message big enough? */
+  if (p->tot_len < (SIZEOF_DNS_HDR + SIZEOF_DNS_QUERY)) {
+    LWIP_DEBUGF(DNS_DEBUG, ("dns_recv: pbuf too small\n"));
+    /* free pbuf and return */
+    goto memerr;
+  }
+
+  q = pbuf_alloc(PBUF_TRANSPORT, p->tot_len + 2 + sizeof(struct dns_answer) + ipsize, PBUF_RAM);
+
+  /* copy dns payload inside static buffer for processing */
+  if ((q != NULL) && (ERR_OK == pbuf_copy(q, p))) {
+    struct dns_hdr *hdr = (void*)q->payload;
+
+    /* check header */
+    if (((hdr->flags1 & DNS_FLAG1_RESPONSE) == 0) &&
+        (hdr->numquestions == PP_HTONS(1))) {
+      u16_t res_idx = 0xFFFF;
+      struct local_hostlist_entry *entry;
+
+      /* try to find the hostname in the local list */
+#if DNS_LOCAL_HOSTLIST_IS_DYNAMIC
+      for (entry = local_hostlist_dynamic; entry != NULL; entry = entry->next) {
+#else /* DNS_LOCAL_HOSTLIST_IS_DYNAMIC */
+      u16_t i;
+      for (i = 0; i < LWIP_ARRAYSIZE(local_hostlist_static); i++) {
+        entry = &local_hostlist_static[i];
+#endif /* DNS_LOCAL_HOSTLIST_IS_DYNAMIC */
+        res_idx = dns_compare_name(entry->name, p, SIZEOF_DNS_HDR);
+        if (res_idx < 0xFFFF) {
+          break;
+        }
+      }
+
+      /* if hostname was found in local list */
+      if (res_idx != 0xFFFF) {
+        u16_t len = p->tot_len, ip_len;
+        u16_t nameref;
+        struct dns_answer ans;
+        union {
+#if LWIP_IPV4
+          ip4_addr_p_t ip4;
+#endif
+#if LWIP_IPV6
+          ip6_addr_p_t ip6;
+#endif
+        } ipaddr;
+
+        /* change header to response */
+        hdr->flags1 |= DNS_FLAG1_RESPONSE;
+        hdr->numanswers = PP_HTONS(1);
+
+        /* append answer to response */
+        nameref = PP_HTONS(0xC00C);
+        ans.cls = PP_HTONS(DNS_RRCLASS_IN);
+        ans.ttl = PP_HTONL(DNS_SERVER_TTL);
+
+#if LWIP_IPV4
+        if (IP_IS_V4(entry->addr)) {
+          ip_len = sizeof(ip4_addr_t);
+          ans.type = PP_HTONS(DNS_RRTYPE_A);
+          ans.len  = PP_HTONS(sizeof(ip4_addr_t));
+          ip4_addr_copy(ipaddr.ip4, ip_2_ip4(entry->addr));
+        }
+#endif
+#if LWIP_IPV6
+        if (IP_IS_V6(entry->addr)) {
+          ip_len = sizeof(ip6_addr_t);
+          ans.type = PP_HTONS(DNS_RRTYPE_AAAA);
+          ans.len  = PP_HTONS(sizeof(ip6_addr_t));
+          ip6_addr_copy(ipaddr.ip4, ip_2_ip6(entry->addr));
+        }
+#endif
+        pbuf_take_at(q, &nameref, sizeof(nameref), len);
+        len += sizeof(nameref);
+        pbuf_take_at(q, &ans, sizeof(ans), len);
+        len += SIZEOF_DNS_ANSWER;
+        pbuf_take_at(q, &ipaddr, ip_len, len);
+
+        /* send dns response */
+        udp_sendto(pcb, q, addr, port);
+      }
+
+      pbuf_free(q);
+    }
+  }
+
+memerr:
+  /* deallocate memory and return */
+  pbuf_free(p);
+  return;
+}
+
 #endif /* DNS_LOCAL_HOSTLIST */
 
 /**
