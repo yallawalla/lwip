@@ -192,6 +192,9 @@ MBEDTLS_FILES=$(LWIPDIR)/apps/altcp_tls/altcp_tls_mbedtls.c \
 	$(LWIPDIR)/apps/altcp_tls/altcp_tls_mbedtls_mem.c \
 	$(LWIPDIR)/apps/snmp/snmpv3_mbedtls.c
 
+# DHCPFILES: DHCP server
+DHCPFILES=$(LWIPDIR)/apps/dhcp_server/dhcp_server.c
+
 # LWIPAPPFILES: All LWIP APPs
 LWIPAPPFILES=$(SNMPFILES) \
 	$(HTTPFILES) \
@@ -202,4 +205,5 @@ LWIPAPPFILES=$(SNMPFILES) \
 	$(NETBIOSNSFILES) \
 	$(TFTPFILES) \
 	$(MQTTFILES) \
-	$(MBEDTLS_FILES)
+	$(MBEDTLS_FILES) \
+	$(DHCPFILES)
