@@ -1,0 +1,1664 @@
+Dependencies for Project 'lwip', Target 'src': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\src\core\altcp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\altcp.o --omf_browse .\objects\altcp.crf --depend .\objects\altcp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\altcp_alloc.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\altcp_alloc.o --omf_browse .\objects\altcp_alloc.crf --depend .\objects\altcp_alloc.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\altcp_tcp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\altcp_tcp.o --omf_browse .\objects\altcp_tcp.crf --depend .\objects\altcp_tcp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\def.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\def.o --omf_browse .\objects\def.crf --depend .\objects\def.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\dns.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\dns.o --omf_browse .\objects\dns.crf --depend .\objects\dns.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\inet_chksum.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\inet_chksum.o --omf_browse .\objects\inet_chksum.crf --depend .\objects\inet_chksum.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\init.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/init.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/sockets.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/raw.h)(0x60A6313C)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/dns.h)(0x60A6313C)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/nd6.h)(0x60A6313C)
+I (..\src\include\lwip/mld6.h)(0x60A6313C)
+I (..\src\include\lwip/api.h)(0x60A6313C)
+I (..\src\include\netif/ppp/ppp_opts.h)(0x60A6313C)
+I (..\src\include\netif/ppp/ppp_impl.h)(0x60A6313C)
+F (..\src\core\ip.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip.o --omf_browse .\objects\ip.crf --depend .\objects\ip.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+F (..\src\core\mem.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\memp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\memp.o --omf_browse .\objects\memp.crf --depend .\objects\memp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/raw.h)(0x60A6313C)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/altcp.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_frag.h)(0x60A6313C)
+I (..\src\include\lwip/netbuf.h)(0x60A6313C)
+I (..\src\include\lwip/api.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcpip_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/api_msg.h)(0x60A6313C)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/sockets_priv.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (..\src\include\netif/ppp/ppp_opts.h)(0x60A6313C)
+I (..\src\include\lwip/netdb.h)(0x60A6313C)
+I (..\src\include\lwip/dns.h)(0x60A6313C)
+I (..\src\include\lwip/priv/nd6_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_frag.h)(0x60A6313C)
+I (..\src\include\lwip/mld6.h)(0x60A6313C)
+F (..\src\core\netif.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\netif.o --omf_browse .\objects\netif.crf --depend .\objects\netif.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/raw_priv.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\netif/ethernet.h)(0x60A6313C)
+F (..\src\core\pbuf.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\pbuf.o --omf_browse .\objects\pbuf.crf --depend .\objects\pbuf.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\raw.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\raw.o --omf_browse .\objects\raw.crf --depend .\objects\raw.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\stats.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\stats.o --omf_browse .\objects\stats.crf --depend .\objects\stats.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\sys.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+F (..\src\core\tcp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\tcp.o --omf_browse .\objects\tcp.crf --depend .\objects\tcp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/nd6.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\tcp_in.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\tcp_in.o --omf_browse .\objects\tcp_in.crf --depend .\objects\tcp_in.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/nd6.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\tcp_out.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\tcp_out.o --omf_browse .\objects\tcp_out.crf --depend .\objects\tcp_out.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\timeouts.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\timeouts.o --omf_browse .\objects\timeouts.crf --depend .\objects\timeouts.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcpip_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_frag.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/dhcp.h)(0x60A6313C)
+I (..\src\include\lwip/autoip.h)(0x60A6313C)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/dns.h)(0x60A6313C)
+I (..\src\include\lwip/nd6.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_frag.h)(0x60A6313C)
+I (..\src\include\lwip/mld6.h)(0x60A6313C)
+I (..\src\include\lwip/dhcp6.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+F (..\src\core\udp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\udp.o --omf_browse .\objects\udp.crf --depend .\objects\udp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/icmp6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp6.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (..\src\include\lwip/dhcp.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv4\autoip.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\autoip.o --omf_browse .\objects\autoip.crf --depend .\objects\autoip.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv4\dhcp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\dhcp.o --omf_browse .\objects\dhcp.crf --depend .\objects\dhcp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv4\etharp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\etharp.o --omf_browse .\objects\etharp.crf --depend .\objects\etharp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (..\src\include\lwip/dhcp.h)(0x60A6313C)
+I (..\src\include\lwip/autoip.h)(0x60A6313C)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (..\src\include\netif/ethernet.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv4\icmp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\icmp.o --omf_browse .\objects\icmp.crf --depend .\objects\icmp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv4\igmp.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\igmp.o --omf_browse .\objects\igmp.crf --depend .\objects\igmp.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/prot/igmp.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv4\ip4.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip4.o --omf_browse .\objects\ip4.crf --depend .\objects\ip4.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_frag.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/igmp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/raw_priv.h)(0x60A6313C)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/tcp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/prot/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/autoip.h)(0x60A6313C)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv4\ip4_addr.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip4_addr.o --omf_browse .\objects\ip4_addr.crf --depend .\objects\ip4_addr.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+F (..\src\core\ipv4\ip4_frag.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip4_frag.o --omf_browse .\objects\ip4_frag.crf --depend .\objects\ip4_frag.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip4_frag.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/inet_chksum.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv6\dhcp6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\dhcp6.o --omf_browse .\objects\dhcp6.crf --depend .\objects\dhcp6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\ethip6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ethip6.o --omf_browse .\objects\ethip6.crf --depend .\objects\ethip6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\icmp6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\icmp6.o --omf_browse .\objects\icmp6.crf --depend .\objects\icmp6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\inet6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\inet6.o --omf_browse .\objects\inet6.crf --depend .\objects\inet6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\ip6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip6.o --omf_browse .\objects\ip6.crf --depend .\objects\ip6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\ip6_addr.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip6_addr.o --omf_browse .\objects\ip6_addr.crf --depend .\objects\ip6_addr.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\ip6_frag.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ip6_frag.o --omf_browse .\objects\ip6_frag.crf --depend .\objects\ip6_frag.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip6_frag.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/icmp6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp6.h)(0x60A6313C)
+I (..\src\include\lwip/nd6.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\core\ipv6\mld6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\mld6.o --omf_browse .\objects\mld6.crf --depend .\objects\mld6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\core\ipv6\nd6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\nd6.o --omf_browse .\objects\nd6.crf --depend .\objects\nd6.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\api_lib.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\api_lib.o --omf_browse .\objects\api_lib.crf --depend .\objects\api_lib.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\api_msg.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\api_msg.o --omf_browse .\objects\api_msg.crf --depend .\objects\api_msg.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\err.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\err.o --omf_browse .\objects\err.crf --depend .\objects\err.d)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/errno.h)(0x60A6313C)
+F (..\src\api\if_api.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\if_api.o --omf_browse .\objects\if_api.crf --depend .\objects\if_api.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\netbuf.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\netbuf.o --omf_browse .\objects\netbuf.crf --depend .\objects\netbuf.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\netdb.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\netdb.o --omf_browse .\objects\netdb.crf --depend .\objects\netdb.d)
+I (..\src\include\lwip/netdb.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\netifapi.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\netifapi.o --omf_browse .\objects\netifapi.crf --depend .\objects\netifapi.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\sockets.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\sockets.o --omf_browse .\objects\sockets.crf --depend .\objects\sockets.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\api\tcpip.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\tcpip.o --omf_browse .\objects\tcpip.crf --depend .\objects\tcpip.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\netif\bridgeif.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\bridgeif.o --omf_browse .\objects\bridgeif.crf --depend .\objects\bridgeif.d)
+I (..\src\include\netif/bridgeif.h)(0x60A6313C)
+I (..\src\include\netif/bridgeif_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/ethip6.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\netif\bridgeif_fdb.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\bridgeif_fdb.o --omf_browse .\objects\bridgeif_fdb.crf --depend .\objects\bridgeif_fdb.d)
+I (..\src\include\netif/bridgeif.h)(0x60A6313C)
+I (..\src\include\netif/bridgeif_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\netif\ethernet.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\ethernet.o --omf_browse .\objects\ethernet.crf --depend .\objects\ethernet.d)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\netif/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ethernet.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ieee.h)(0x60A6313C)
+I (..\src\include\lwip/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/etharp.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (..\src\include\netif/ppp/ppp_opts.h)(0x60A6313C)
+F (..\src\netif\lowpan6.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\lowpan6.o --omf_browse .\objects\lowpan6.crf --depend .\objects\lowpan6.d)
+I (..\src\include\netif/lowpan6.h)(0x60A6313C)
+I (..\src\include\netif/lowpan6_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\netif\lowpan6_ble.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\lowpan6_ble.o --omf_browse .\objects\lowpan6_ble.crf --depend .\objects\lowpan6_ble.d)
+I (..\src\include\netif/lowpan6_ble.h)(0x60A6313C)
+I (..\src\include\netif/lowpan6_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\netif\lowpan6_common.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\lowpan6_common.o --omf_browse .\objects\lowpan6_common.crf --depend .\objects\lowpan6_common.d)
+I (..\src\include\netif/lowpan6_common.h)(0x60A6313C)
+I (..\src\include\netif/lowpan6_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\netif\slipif.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\slipif.o --omf_browse .\objects\slipif.crf --depend .\objects\slipif.d)
+I (..\src\include\netif/slipif.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/snmp.h)(0x60A6313C)
+I (..\src\include\lwip/sys.h)(0x60A6313C)
+I (..\src\include\lwip/sio.h)(0x60A6313C)
+F (..\src\netif\zepif.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\zepif.o --omf_browse .\objects\zepif.crf --depend .\objects\zepif.d)
+I (..\src\include\netif/zepif.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\netif/lowpan6.h)(0x60A6313C)
+I (..\src\include\netif/lowpan6_opts.h)(0x60A6313C)
+F (..\src\apps\http\altcp_proxyconnect.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\altcp_proxyconnect.o --omf_browse .\objects\altcp_proxyconnect.crf --depend .\objects\altcp_proxyconnect.d)
+I (..\src\include\lwip/apps/altcp_proxyconnect.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+F (..\src\apps\http\fs.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\fs.o --omf_browse .\objects\fs.crf --depend .\objects\fs.d)
+I (..\src\include\lwip/apps/httpd_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/apps/fs.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+I (..\src\apps\http\fsdata.c)(0x60A6313C)
+F (..\src\apps\http\fsdata.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\fsdata.o --omf_browse .\objects\fsdata.crf --depend .\objects\fsdata.d)
+I (..\src\include\lwip/apps/fs.h)(0x60A6313C)
+I (..\src\include\lwip/apps/httpd_opts.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+F (..\src\apps\http\http_client.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\http_client.o --omf_browse .\objects\http_client.crf --depend .\objects\http_client.d)
+I (..\src\include\lwip/apps/http_client.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/altcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (..\src\include\lwip/altcp_tcp.h)(0x60A6313C)
+I (..\src\include\lwip/dns.h)(0x60A6313C)
+I (..\src\include\lwip/altcp_tls.h)(0x60A6313C)
+I (..\src\include\lwip/init.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\apps\http\httpd.c)(0x60A6313C)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\httpd.o --omf_browse .\objects\httpd.crf --depend .\objects\httpd.d)
+I (..\src\include\lwip/init.h)(0x60A6313C)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/apps/httpd.h)(0x60A6313C)
+I (..\src\include\lwip/apps/httpd_opts.h)(0x60A6313C)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/apps/fs.h)(0x60A6313C)
+I (..\src\apps\http\httpd_structs.h)(0x60A6313C)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/altcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcp.h)(0x60A6313C)
+I (..\src\include\lwip/tcpbase.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/icmp.h)(0x60A6313C)
+I (..\src\include\lwip/altcp_tcp.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
+F (..\src\apps\dhcp_server\dhcp_server.c)(0x60A7B66E)(--gnu -c --cpu Cortex-M4.fp.sp -g -W -O0 --apcs=interwork --split_sections -I ..\src\include -I ..\IDE-I.\RTE\_src-IC:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Mocnik\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F407xx -D_RTE_-o .\objects\dhcp_server.o --omf_browse .\objects\dhcp_server.crf --depend .\objects\dhcp_server.d)
+I (..\src\include\lwip/apps/dhcp_server.h)(0x60A6313C)
+I (..\src\include\lwip/apps/dhcp_opts.h)(0x60A7B6BE)
+I (..\src\include\lwip/opt.h)(0x60A6313C)
+I (..\IDE\lwipopts.h)(0x60A7B8FB)
+I (..\src\include\lwip/debug.h)(0x60A6313C)
+I (..\src\include\lwip/arch.h)(0x60A6313C)
+I (..\IDE\arch/cc.h)(0x60A20987)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53A4BC)
+I (..\IDE\arch/cpu.h)(0x60A667EF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53A4BC)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E53A4BC)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5E53A4BA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E53A4BC)
+I (..\src\include\lwip/netif.h)(0x60A6313C)
+I (..\src\include\lwip/err.h)(0x60A6313C)
+I (..\src\include\lwip/ip_addr.h)(0x60A7B110)
+I (..\src\include\lwip/def.h)(0x60A6313C)
+I (..\src\include\lwip/ip4_addr.h)(0x60A6313C)
+I (..\src\include\lwip/ip6_addr.h)(0x60A6313C)
+I (..\src\include\lwip/pbuf.h)(0x60A6313C)
+I (..\src\include\lwip/stats.h)(0x60A6313C)
+I (..\src\include\lwip/mem.h)(0x60A6313C)
+I (..\src\include\lwip/memp.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_std.h)(0x60A6313C)
+I (..\src\include\lwip/priv/memp_priv.h)(0x60A6313C)
+I (..\src\include\lwip/priv/mem_priv.h)(0x60A6313C)
+I (..\src\include\lwip/dns.h)(0x60A6313C)
+I (..\src\include\lwip/udp.h)(0x60A6313C)
+I (..\src\include\lwip/ip.h)(0x60A6313C)
+I (..\src\include\lwip/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip4.h)(0x60A6313C)
+I (..\src\include\lwip/ip6.h)(0x60A6313C)
+I (..\src\include\lwip/prot/ip.h)(0x60A6313C)
+I (..\src\include\lwip/prot/udp.h)(0x60A6313C)
+I (..\src\include\lwip/timeouts.h)(0x60A6313C)
+I (..\src\include\lwip/prot/dhcp.h)(0x60A6313C)
+I (..\src\include\lwip/prot/dns.h)(0x60A6313C)
+I (..\src\include\lwip/prot/iana.h)(0x60A6313C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E53A4BC)
