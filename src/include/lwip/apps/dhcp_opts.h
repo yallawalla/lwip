@@ -31,7 +31,7 @@
 
 /** Set this to 1 to support DHCP server */
 #if !LWIP_IPV4 || !defined LWIP_DHCP_SERVER || defined __DOXYGEN__
-#define LWIP_DHCP_SERVER                    0
+#define LWIP_DHCP_SERVER                    1
 #endif
 
 /** The maximum number of DHCP clients the server can handle */

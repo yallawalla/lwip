@@ -2,7 +2,7 @@
  * Copyright (c) 2001-2003 Swedish Institute of Computer Science.
  * All rights reserved. 
  * 
- * Redistribution and use in source and binary forms, with or without modification, 
+ * Redistf1500ribution and use in source and binary forms, with or without modification, 
  * are permitted provided that the following conditions are met:
  *
  * 1. Redistributions of source code must retain the above copyright notice,
@@ -51,7 +51,7 @@
 #define TCPIP_THREAD_TEST
 
 /* Enable DHCP to test it, disable UDP checksum to easier inject packets */
-#define LWIP_DHCP                       0
+#define LWIP_DHCP                       1
 
 /* Minimal changes to opt.h required for tcp unit tests: */
 #define MEM_SIZE                        10000
@@ -61,7 +61,7 @@
 #define TCP_WND                         (10 * TCP_MSS)
 #define LWIP_WND_SCALE                  1
 #define TCP_RCV_SCALE                   0
-#define PBUF_POOL_SIZE                  16 /* pbuf tests need ~200KByte */
+#define PBUF_POOL_SIZE                  64 /* pbuf tests need ~200KByte */
 
 /* Enable IGMP and MDNS for MDNS tests */
 #define LWIP_IGMP                       1

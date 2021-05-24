@@ -8,8 +8,8 @@
 .\objects\etharp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\etharp.o: ..\IDE\arch/cpu.h
 .\objects\etharp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\etharp.o: C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\etharp.o: C:\Users\Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\etharp.o: C:\Users\Matjaz Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\etharp.o: C:\Users\Matjaz Mocnik\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\etharp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\etharp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\etharp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
@@ -38,6 +38,11 @@
 .\objects\etharp.o: ..\src\include\lwip/prot/etharp.h
 .\objects\etharp.o: ..\src\include\lwip/snmp.h
 .\objects\etharp.o: ..\src\include\lwip/dhcp.h
+.\objects\etharp.o: ..\src\include\lwip/udp.h
+.\objects\etharp.o: ..\src\include\lwip/ip.h
+.\objects\etharp.o: ..\src\include\lwip/ip6.h
+.\objects\etharp.o: ..\src\include\lwip/prot/ip.h
+.\objects\etharp.o: ..\src\include\lwip/prot/udp.h
 .\objects\etharp.o: ..\src\include\lwip/autoip.h
 .\objects\etharp.o: ..\src\include\lwip/prot/iana.h
 .\objects\etharp.o: ..\src\include\netif/ethernet.h
